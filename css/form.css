@@ -20,9 +20,11 @@
     padding: 10px;
     border: none;
     color: white;
+    transition: transform 1s ease, background-color 1s;
 }
 
 .form__button:hover {
+    transform: scale(1.15);
     background-color: hsl(180, 100%, 30%);
 }
 
