@@ -6,7 +6,7 @@ Simple web application that allows users to create **To do list** with options t
 
 ## Live demo
 
-[View live demo - To do list](https://patkolino.github.io/ToDoList/)
+[View live demo - To do list](https://patkolino.github.io/ToDoListRefactored/)
 
 ## Usage
 1. Within input field, enter the task You want to complete (or have completed but forgot to write it down initially) <div>
