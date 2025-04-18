@@ -14,6 +14,10 @@
     word-break: break-word;
 }
 
+.tasks__item--hidden {
+    display: none;
+}
+
 .tasks__button {
     background-color: green;
     width: 30px;
