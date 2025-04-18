@@ -5,8 +5,9 @@
     const addNewTask = (newTaskContent) => {
         tasks = [
             ...tasks,
-            { content: newTaskContent }
+            { content: newTaskContent },
         ];
+
         render();
     };
 
@@ -15,6 +16,7 @@
             ...tasks.slice(0, taskIndex),
             ...tasks.slice(taskIndex + 1),
         ];
+
         render();
     };
 
@@ -41,6 +43,10 @@
     };
 
     const toggleHideDoneTasks = () => {
+        const anyTaskDone = tasks.some(({ done }) => done);
+
+        if (!anyTaskDone) return;
+
         hideDoneTasks = !hideDoneTasks;
         render();
     };
