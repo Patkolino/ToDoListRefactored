@@ -9,12 +9,6 @@
     border: 1px solid #ddd;
 }
 
-@media(max-width: 767px) {
-    .form {
-        grid-template-columns: 1fr;
-    }
-}
-
 .form__button {
     background-color: teal;
     padding: 10px;
@@ -30,4 +24,13 @@
 
 .form__button:active {
     background-color: hsl(180, 100%, 35%);
+}
+
+@media(max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+    .form__button:hover {
+        transform: scale(1.1);
+    }
 }
