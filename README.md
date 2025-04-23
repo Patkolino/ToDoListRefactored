@@ -21,33 +21,34 @@ Simple web application that allows users to create **To do list** with options t
 4. Once a task is added, there are 4 buttons available : <div>
  ![Task options](images/TaskOptions.jpg) </div>
 
-<div style="margin-left: 20px;">
-<ol>
-<li>
+> <ol>
+
+> <li>
 
   Mark task as done - By clicking the green button on the left side, task is marked as done. A checkmark will appear within the green button and the task will be crossed over <div>![Completed task](images/CompletedTask.jpg)</div>
 
- </li>
- <li>
+</li>
+
+> <li>
 
   Delete task - By clicking red button with thrash bin icon on the right side, task will be deleted <div>![Delete task button](images/DeleteTask.jpg) </div> <div>
 ![List after task is deleted](images/TaskDeleted.jpg)</div>
-
 </li>
-<li>
+
+> <li>
 
   Hide done tasks - clicking this button will toggle between Hide done tasks and Show done tasks <div>
     ![Toggle Hide/Show done tasks](images/TaskToggleButton.jpg)
 
 </li>
-<li>
+
+> <li>
 
   Mark all tasks as done - Clicking on this button will mark all tasks as completed <div>
 ![Mark all tasks as done](images/MarkAllDone.jpg)
 </li>
 
 </ol>
-</div>
 
 Hide done tasks and Mark all as done buttons are not visible in case there are no tasks in the task list. In case all tasks are marked as completed, the Mark all as done button will not be clickable as visible on the screenshot above.
 
