@@ -1,7 +1,7 @@
 # To do list
 
 ## Description
-Simple web application that allows users to create **To do list** with options to add new tasks, mark completed tasks as done or delete tasks
+Simple web application that allows users to create **To do list** with options to add new tasks, mark completed tasks as done or delete tasks. Users have possibility to hide or show completed tasks, and all tasks can be completed with a single click of button.
 ![to do list application preview](images/PagePreview.jpg)
 
 ## Live demo
