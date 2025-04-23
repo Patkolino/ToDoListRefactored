@@ -43,10 +43,6 @@
     };
 
     const toggleHideDoneTasks = () => {
-        const anyTaskDone = tasks.some(({ done }) => done);
-
-        if (!anyTaskDone) return;
-
         hideDoneTasks = !hideDoneTasks;
         render();
     };
